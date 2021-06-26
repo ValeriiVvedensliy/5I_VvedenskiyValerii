@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		E0AD9C0B268788F500DBBEA7 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0AD9C0A268788F500DBBEA7 /* main.swift */; };
+		E0AD9C1326878A1800DBBEA7 /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0AD9C1226878A1800DBBEA7 /* Car.swift */; };
+		E0AD9C1526878B1D00DBBEA7 /* ActionsCar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0AD9C1426878B1D00DBBEA7 /* ActionsCar.swift */; };
+		E0AD9C1A26878C1200DBBEA7 /* TrackCar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0AD9C1926878C1200DBBEA7 /* TrackCar.swift */; };
+		E0AD9C1C26878C8C00DBBEA7 /* SportCar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0AD9C1B26878C8C00DBBEA7 /* SportCar.swift */; };
+		E0AD9C1E26878D4400DBBEA7 /* Actions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0AD9C1D26878D4400DBBEA7 /* Actions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +30,11 @@
 /* Begin PBXFileReference section */
 		E0AD9C07268788F500DBBEA7 /* 5I_VvedenskiyValerii */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = 5I_VvedenskiyValerii; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0AD9C0A268788F500DBBEA7 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		E0AD9C1226878A1800DBBEA7 /* Car.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
+		E0AD9C1426878B1D00DBBEA7 /* ActionsCar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionsCar.swift; sourceTree = "<group>"; };
+		E0AD9C1926878C1200DBBEA7 /* TrackCar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackCar.swift; sourceTree = "<group>"; };
+		E0AD9C1B26878C8C00DBBEA7 /* SportCar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportCar.swift; sourceTree = "<group>"; };
+		E0AD9C1D26878D4400DBBEA7 /* Actions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Actions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +67,30 @@
 		E0AD9C09268788F500DBBEA7 /* 5I_VvedenskiyValerii */ = {
 			isa = PBXGroup;
 			children = (
+				E0AD9C1826878BD300DBBEA7 /* Classes */,
+				E0AD9C11268789DF00DBBEA7 /* Protocols */,
 				E0AD9C0A268788F500DBBEA7 /* main.swift */,
 			);
 			path = 5I_VvedenskiyValerii;
+			sourceTree = "<group>";
+		};
+		E0AD9C11268789DF00DBBEA7 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				E0AD9C1226878A1800DBBEA7 /* Car.swift */,
+				E0AD9C1426878B1D00DBBEA7 /* ActionsCar.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		E0AD9C1826878BD300DBBEA7 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				E0AD9C1926878C1200DBBEA7 /* TrackCar.swift */,
+				E0AD9C1B26878C8C00DBBEA7 /* SportCar.swift */,
+				E0AD9C1D26878D4400DBBEA7 /* Actions.swift */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,6 +150,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E0AD9C1A26878C1200DBBEA7 /* TrackCar.swift in Sources */,
+				E0AD9C1C26878C8C00DBBEA7 /* SportCar.swift in Sources */,
+				E0AD9C1526878B1D00DBBEA7 /* ActionsCar.swift in Sources */,
+				E0AD9C1E26878D4400DBBEA7 /* Actions.swift in Sources */,
+				E0AD9C1326878A1800DBBEA7 /* Car.swift in Sources */,
 				E0AD9C0B268788F500DBBEA7 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
